@@ -4725,32 +4725,1196 @@ local coolpattern = {
   {"Blue Wool", CFrame.new(164, 2, 200, -1, 0, -8.742277657347586e-08, 0), workspace.Baseplate},
 }
 
+local claudeshouse = {
+  --[1] t=1781824750.76
+  {"Oak Planks", CFrame.new(580, 2, 144, 0, 0, 1, 0), workspace.Baseplate},
+  --[2] t=1781824752.16
+  {"Oak Planks", CFrame.new(580, 2, 148, 0, 0, 1, 0), workspace.Baseplate},
+  --[3] t=1781824753.56
+  {"Oak Planks", CFrame.new(580, 2, 152, 0, 0, 1, 0), workspace.Baseplate},
+  --[4] t=1781824754.96
+  {"Oak Planks", CFrame.new(580, 2, 156, 0, 0, 1, 0), workspace.Baseplate},
+  --[5] t=1781824756.36
+  {"Oak Planks", CFrame.new(580, 2, 160, 0, 0, 1, 0), workspace.Baseplate},
+  --[6] t=1781824757.76
+  {"Oak Planks", CFrame.new(580, 2, 164, 0, 0, 1, 0), workspace.Baseplate},
+  --[7] t=1781824759.16
+  {"Oak Planks", CFrame.new(580, 2, 168, 0, 0, 1, 0), workspace.Baseplate},
+  --[8] t=1781824760.56
+  {"Oak Planks", CFrame.new(580, 2, 172, 0, 0, 1, 0), workspace.Baseplate},
+  --[9] t=1781824761.96
+  {"Oak Planks", CFrame.new(580, 2, 176, 0, 0, 1, 0), workspace.Baseplate},
+  --[10] t=1781824763.36
+  {"Oak Planks", CFrame.new(584, 2, 144, 0, 0, 1, 0), workspace.Baseplate},
+  --[11] t=1781824764.76
+  {"Oak Planks", CFrame.new(584, 2, 148, 0, 0, 1, 0), workspace.Baseplate},
+  --[12] t=1781824766.16
+  {"Oak Planks", CFrame.new(584, 2, 152, 0, 0, 1, 0), workspace.Baseplate},
+  --[13] t=1781824767.56
+  {"Oak Planks", CFrame.new(584, 2, 156, 0, 0, 1, 0), workspace.Baseplate},
+  --[14] t=1781824768.96
+  {"Oak Planks", CFrame.new(584, 2, 160, 0, 0, 1, 0), workspace.Baseplate},
+  --[15] t=1781824770.36
+  {"Oak Planks", CFrame.new(584, 2, 164, 0, 0, 1, 0), workspace.Baseplate},
+  --[16] t=1781824771.76
+  {"Oak Planks", CFrame.new(584, 2, 168, 0, 0, 1, 0), workspace.Baseplate},
+  --[17] t=1781824773.16
+  {"Oak Planks", CFrame.new(584, 2, 172, 0, 0, 1, 0), workspace.Baseplate},
+  --[18] t=1781824774.56
+  {"Oak Planks", CFrame.new(584, 2, 176, 0, 0, 1, 0), workspace.Baseplate},
+  --[19] t=1781824775.96
+  {"Oak Planks", CFrame.new(588, 2, 144, 0, 0, 1, 0), workspace.Baseplate},
+  --[20] t=1781824777.36
+  {"Oak Planks", CFrame.new(588, 2, 148, 0, 0, 1, 0), workspace.Baseplate},
+  --[21] t=1781824778.76
+  {"Oak Planks", CFrame.new(588, 2, 152, 0, 0, 1, 0), workspace.Baseplate},
+  --[22] t=1781824780.16
+  {"Oak Planks", CFrame.new(588, 2, 156, 0, 0, 1, 0), workspace.Baseplate},
+  --[23] t=1781824781.56
+  {"Oak Planks", CFrame.new(588, 2, 160, 0, 0, 1, 0), workspace.Baseplate},
+  --[24] t=1781824782.96
+  {"Oak Planks", CFrame.new(588, 2, 164, 0, 0, 1, 0), workspace.Baseplate},
+  --[25] t=1781824784.36
+  {"Oak Planks", CFrame.new(588, 2, 168, 0, 0, 1, 0), workspace.Baseplate},
+  --[26] t=1781824785.76
+  {"Oak Planks", CFrame.new(588, 2, 172, 0, 0, 1, 0), workspace.Baseplate},
+  --[27] t=1781824787.16
+  {"Oak Planks", CFrame.new(588, 2, 176, 0, 0, 1, 0), workspace.Baseplate},
+  --[28] t=1781824788.56
+  {"Oak Planks", CFrame.new(592, 2, 144, 0, 0, 1, 0), workspace.Baseplate},
+  --[29] t=1781824789.96
+  {"Oak Planks", CFrame.new(592, 2, 148, 0, 0, 1, 0), workspace.Baseplate},
+  --[30] t=1781824791.36
+  {"Oak Planks", CFrame.new(592, 2, 152, 0, 0, 1, 0), workspace.Baseplate},
+  --[31] t=1781824792.76
+  {"Oak Planks", CFrame.new(592, 2, 156, 0, 0, 1, 0), workspace.Baseplate},
+  --[32] t=1781824794.16
+  {"Oak Planks", CFrame.new(592, 2, 160, 0, 0, 1, 0), workspace.Baseplate},
+  --[33] t=1781824795.56
+  {"Oak Planks", CFrame.new(592, 2, 164, 0, 0, 1, 0), workspace.Baseplate},
+  --[34] t=1781824796.96
+  {"Oak Planks", CFrame.new(592, 2, 168, 0, 0, 1, 0), workspace.Baseplate},
+  --[35] t=1781824798.36
+  {"Oak Planks", CFrame.new(592, 2, 172, 0, 0, 1, 0), workspace.Baseplate},
+  --[36] t=1781824799.76
+  {"Oak Planks", CFrame.new(592, 2, 176, 0, 0, 1, 0), workspace.Baseplate},
+  --[37] t=1781824801.16
+  {"Oak Planks", CFrame.new(596, 2, 144, 0, 0, 1, 0), workspace.Baseplate},
+  --[38] t=1781824802.56
+  {"Oak Planks", CFrame.new(596, 2, 148, 0, 0, 1, 0), workspace.Baseplate},
+  --[39] t=1781824803.96
+  {"Oak Planks", CFrame.new(596, 2, 152, 0, 0, 1, 0), workspace.Baseplate},
+  --[40] t=1781824805.36
+  {"Oak Planks", CFrame.new(596, 2, 156, 0, 0, 1, 0), workspace.Baseplate},
+  --[41] t=1781824806.76
+  {"Oak Planks", CFrame.new(596, 2, 160, 0, 0, 1, 0), workspace.Baseplate},
+  --[42] t=1781824808.16
+  {"Oak Planks", CFrame.new(596, 2, 164, 0, 0, 1, 0), workspace.Baseplate},
+  --[43] t=1781824809.56
+  {"Oak Planks", CFrame.new(596, 2, 168, 0, 0, 1, 0), workspace.Baseplate},
+  --[44] t=1781824810.96
+  {"Oak Planks", CFrame.new(596, 2, 172, 0, 0, 1, 0), workspace.Baseplate},
+  --[45] t=1781824812.36
+  {"Oak Planks", CFrame.new(596, 2, 176, 0, 0, 1, 0), workspace.Baseplate},
+  --[46] t=1781824813.76
+  {"Oak Planks", CFrame.new(600, 2, 144, 0, 0, 1, 0), workspace.Baseplate},
+  --[47] t=1781824815.16
+  {"Oak Planks", CFrame.new(600, 2, 148, 0, 0, 1, 0), workspace.Baseplate},
+  --[48] t=1781824816.56
+  {"Oak Planks", CFrame.new(600, 2, 152, 0, 0, 1, 0), workspace.Baseplate},
+  --[49] t=1781824817.96
+  {"Oak Planks", CFrame.new(600, 2, 156, 0, 0, 1, 0), workspace.Baseplate},
+  --[50] t=1781824819.36
+  {"Oak Planks", CFrame.new(600, 2, 160, 0, 0, 1, 0), workspace.Baseplate},
+  --[51] t=1781824820.76
+  {"Oak Planks", CFrame.new(600, 2, 164, 0, 0, 1, 0), workspace.Baseplate},
+  --[52] t=1781824822.16
+  {"Oak Planks", CFrame.new(600, 2, 168, 0, 0, 1, 0), workspace.Baseplate},
+  --[53] t=1781824823.56
+  {"Oak Planks", CFrame.new(600, 2, 172, 0, 0, 1, 0), workspace.Baseplate},
+  --[54] t=1781824824.96
+  {"Oak Planks", CFrame.new(600, 2, 176, 0, 0, 1, 0), workspace.Baseplate},
+  --[55] t=1781824826.36
+  {"Oak Planks", CFrame.new(604, 2, 144, 0, 0, 1, 0), workspace.Baseplate},
+  --[56] t=1781824827.76
+  {"Oak Planks", CFrame.new(604, 2, 148, 0, 0, 1, 0), workspace.Baseplate},
+  --[57] t=1781824829.16
+  {"Oak Planks", CFrame.new(604, 2, 152, 0, 0, 1, 0), workspace.Baseplate},
+  --[58] t=1781824830.56
+  {"Oak Planks", CFrame.new(604, 2, 156, 0, 0, 1, 0), workspace.Baseplate},
+  --[59] t=1781824831.96
+  {"Oak Planks", CFrame.new(604, 2, 160, 0, 0, 1, 0), workspace.Baseplate},
+  --[60] t=1781824833.36
+  {"Oak Planks", CFrame.new(604, 2, 164, 0, 0, 1, 0), workspace.Baseplate},
+  --[61] t=1781824834.76
+  {"Oak Planks", CFrame.new(604, 2, 168, 0, 0, 1, 0), workspace.Baseplate},
+  --[62] t=1781824836.16
+  {"Oak Planks", CFrame.new(604, 2, 172, 0, 0, 1, 0), workspace.Baseplate},
+  --[63] t=1781824837.56
+  {"Oak Planks", CFrame.new(604, 2, 176, 0, 0, 1, 0), workspace.Baseplate},
+  --[64] t=1781824838.96
+  {"Oak Planks", CFrame.new(608, 2, 144, 0, 0, 1, 0), workspace.Baseplate},
+  --[65] t=1781824840.36
+  {"Oak Planks", CFrame.new(608, 2, 148, 0, 0, 1, 0), workspace.Baseplate},
+  --[66] t=1781824841.76
+  {"Oak Planks", CFrame.new(608, 2, 152, 0, 0, 1, 0), workspace.Baseplate},
+  --[67] t=1781824843.16
+  {"Oak Planks", CFrame.new(608, 2, 156, 0, 0, 1, 0), workspace.Baseplate},
+  --[68] t=1781824844.56
+  {"Oak Planks", CFrame.new(608, 2, 160, 0, 0, 1, 0), workspace.Baseplate},
+  --[69] t=1781824845.96
+  {"Oak Planks", CFrame.new(608, 2, 164, 0, 0, 1, 0), workspace.Baseplate},
+  --[70] t=1781824847.36
+  {"Oak Planks", CFrame.new(608, 2, 168, 0, 0, 1, 0), workspace.Baseplate},
+  --[71] t=1781824848.76
+  {"Oak Planks", CFrame.new(608, 2, 172, 0, 0, 1, 0), workspace.Baseplate},
+  --[72] t=1781824850.16
+  {"Oak Planks", CFrame.new(608, 2, 176, 0, 0, 1, 0), workspace.Baseplate},
+  --[73] t=1781824851.56
+  {"Oak Planks", CFrame.new(612, 2, 144, 0, 0, 1, 0), workspace.Baseplate},
+  --[74] t=1781824852.96
+  {"Oak Planks", CFrame.new(612, 2, 148, 0, 0, 1, 0), workspace.Baseplate},
+  --[75] t=1781824854.36
+  {"Oak Planks", CFrame.new(612, 2, 152, 0, 0, 1, 0), workspace.Baseplate},
+  --[76] t=1781824855.76
+  {"Oak Planks", CFrame.new(612, 2, 156, 0, 0, 1, 0), workspace.Baseplate},
+  --[77] t=1781824857.16
+  {"Oak Planks", CFrame.new(612, 2, 160, 0, 0, 1, 0), workspace.Baseplate},
+  --[78] t=1781824858.56
+  {"Oak Planks", CFrame.new(612, 2, 164, 0, 0, 1, 0), workspace.Baseplate},
+  --[79] t=1781824859.96
+  {"Oak Planks", CFrame.new(612, 2, 168, 0, 0, 1, 0), workspace.Baseplate},
+  --[80] t=1781824861.36
+  {"Oak Planks", CFrame.new(612, 2, 172, 0, 0, 1, 0), workspace.Baseplate},
+  --[81] t=1781824862.76
+  {"Oak Planks", CFrame.new(612, 2, 176, 0, 0, 1, 0), workspace.Baseplate},
+  --[82] t=1781824864.16
+  {"Oak Planks", CFrame.new(580, 6, 144, 0, 0, 1, 0), workspace.Baseplate},
+  --[83] t=1781824865.56
+  {"Oak Planks", CFrame.new(580, 6, 176, 0, 0, 1, 0), workspace.Baseplate},
+  --[84] t=1781824866.96
+  {"Oak Planks", CFrame.new(584, 6, 144, 0, 0, 1, 0), workspace.Baseplate},
+  --[85] t=1781824868.36
+  {"Oak Planks", CFrame.new(584, 6, 176, 0, 0, 1, 0), workspace.Baseplate},
+  --[86] t=1781824869.76
+  {"Oak Planks", CFrame.new(588, 6, 144, 0, 0, 1, 0), workspace.Baseplate},
+  --[87] t=1781824871.16
+  {"Oak Planks", CFrame.new(588, 6, 176, 0, 0, 1, 0), workspace.Baseplate},
+  --[88] t=1781824872.56
+  {"Oak Planks", CFrame.new(592, 6, 144, 0, 0, 1, 0), workspace.Baseplate},
+  --[89] t=1781824873.96
+  {"Oak Planks", CFrame.new(592, 6, 176, 0, 0, 1, 0), workspace.Baseplate},
+  --[90] t=1781824875.36
+  {"Oak Planks", CFrame.new(596, 6, 144, 0, 0, 1, 0), workspace.Baseplate},
+  --[91] t=1781824876.76
+  {"Oak Planks", CFrame.new(596, 6, 176, 0, 0, 1, 0), workspace.Baseplate},
+  --[92] t=1781824878.16
+  {"Oak Planks", CFrame.new(600, 6, 144, 0, 0, 1, 0), workspace.Baseplate},
+  --[93] t=1781824879.56
+  {"Oak Planks", CFrame.new(600, 6, 176, 0, 0, 1, 0), workspace.Baseplate},
+  --[94] t=1781824880.96
+  {"Oak Planks", CFrame.new(604, 6, 144, 0, 0, 1, 0), workspace.Baseplate},
+  --[95] t=1781824882.36
+  {"Oak Planks", CFrame.new(604, 6, 176, 0, 0, 1, 0), workspace.Baseplate},
+  --[96] t=1781824883.76
+  {"Oak Planks", CFrame.new(608, 6, 144, 0, 0, 1, 0), workspace.Baseplate},
+  --[97] t=1781824885.16
+  {"Oak Planks", CFrame.new(608, 6, 176, 0, 0, 1, 0), workspace.Baseplate},
+  --[98] t=1781824886.56
+  {"Oak Planks", CFrame.new(612, 6, 144, 0, 0, 1, 0), workspace.Baseplate},
+  --[99] t=1781824887.96
+  {"Oak Planks", CFrame.new(612, 6, 176, 0, 0, 1, 0), workspace.Baseplate},
+  --[100] t=1781824889.36
+  {"Oak Planks", CFrame.new(580, 6, 148, 0, 0, 1, 0), workspace.Baseplate},
+  --[101] t=1781824890.76
+  {"Oak Planks", CFrame.new(612, 6, 148, 0, 0, 1, 0), workspace.Baseplate},
+  --[102] t=1781824892.16
+  {"Oak Planks", CFrame.new(580, 6, 152, 0, 0, 1, 0), workspace.Baseplate},
+  --[103] t=1781824893.56
+  {"Oak Planks", CFrame.new(612, 6, 152, 0, 0, 1, 0), workspace.Baseplate},
+  --[104] t=1781824894.96
+  {"Oak Planks", CFrame.new(580, 6, 156, 0, 0, 1, 0), workspace.Baseplate},
+  --[105] t=1781824896.36
+  {"Oak Planks", CFrame.new(612, 6, 156, 0, 0, 1, 0), workspace.Baseplate},
+  --[106] t=1781824897.76
+  {"Oak Planks", CFrame.new(580, 6, 160, 0, 0, 1, 0), workspace.Baseplate},
+  --[107] t=1781824899.16
+  {"Oak Planks", CFrame.new(612, 6, 160, 0, 0, 1, 0), workspace.Baseplate},
+  --[108] t=1781824900.56
+  {"Oak Planks", CFrame.new(580, 6, 164, 0, 0, 1, 0), workspace.Baseplate},
+  --[109] t=1781824901.96
+  {"Oak Planks", CFrame.new(612, 6, 164, 0, 0, 1, 0), workspace.Baseplate},
+  --[110] t=1781824903.36
+  {"Oak Planks", CFrame.new(580, 6, 168, 0, 0, 1, 0), workspace.Baseplate},
+  --[111] t=1781824904.76
+  {"Oak Planks", CFrame.new(612, 6, 168, 0, 0, 1, 0), workspace.Baseplate},
+  --[112] t=1781824906.16
+  {"Oak Planks", CFrame.new(580, 6, 172, 0, 0, 1, 0), workspace.Baseplate},
+  --[113] t=1781824907.56
+  {"Oak Planks", CFrame.new(612, 6, 172, 0, 0, 1, 0), workspace.Baseplate},
+  --[114] t=1781824908.96
+  {"Oak Planks", CFrame.new(580, 10, 144, 0, 0, 1, 0), workspace.Baseplate},
+  --[115] t=1781824910.36
+  {"Oak Planks", CFrame.new(580, 10, 176, 0, 0, 1, 0), workspace.Baseplate},
+  --[116] t=1781824911.76
+  {"Oak Planks", CFrame.new(584, 10, 144, 0, 0, 1, 0), workspace.Baseplate},
+  --[117] t=1781824913.16
+  {"Oak Planks", CFrame.new(584, 10, 176, 0, 0, 1, 0), workspace.Baseplate},
+  --[118] t=1781824914.56
+  {"Oak Planks", CFrame.new(588, 10, 144, 0, 0, 1, 0), workspace.Baseplate},
+  --[119] t=1781824915.96
+  {"Oak Planks", CFrame.new(588, 10, 176, 0, 0, 1, 0), workspace.Baseplate},
+  --[120] t=1781824917.36
+  {"Oak Planks", CFrame.new(592, 10, 144, 0, 0, 1, 0), workspace.Baseplate},
+  --[121] t=1781824918.76
+  {"Oak Planks", CFrame.new(592, 10, 176, 0, 0, 1, 0), workspace.Baseplate},
+  --[122] t=1781824920.16
+  {"Oak Planks", CFrame.new(596, 10, 144, 0, 0, 1, 0), workspace.Baseplate},
+  --[123] t=1781824921.56
+  {"Oak Planks", CFrame.new(596, 10, 176, 0, 0, 1, 0), workspace.Baseplate},
+  --[124] t=1781824922.96
+  {"Oak Planks", CFrame.new(600, 10, 144, 0, 0, 1, 0), workspace.Baseplate},
+  --[125] t=1781824924.36
+  {"Oak Planks", CFrame.new(600, 10, 176, 0, 0, 1, 0), workspace.Baseplate},
+  --[126] t=1781824925.76
+  {"Oak Planks", CFrame.new(604, 10, 144, 0, 0, 1, 0), workspace.Baseplate},
+  --[127] t=1781824927.16
+  {"Oak Planks", CFrame.new(604, 10, 176, 0, 0, 1, 0), workspace.Baseplate},
+  --[128] t=1781824928.56
+  {"Oak Planks", CFrame.new(608, 10, 144, 0, 0, 1, 0), workspace.Baseplate},
+  --[129] t=1781824929.96
+  {"Oak Planks", CFrame.new(608, 10, 176, 0, 0, 1, 0), workspace.Baseplate},
+  --[130] t=1781824931.36
+  {"Oak Planks", CFrame.new(612, 10, 144, 0, 0, 1, 0), workspace.Baseplate},
+  --[131] t=1781824932.76
+  {"Oak Planks", CFrame.new(612, 10, 176, 0, 0, 1, 0), workspace.Baseplate},
+  --[132] t=1781824934.16
+  {"Oak Planks", CFrame.new(580, 10, 148, 0, 0, 1, 0), workspace.Baseplate},
+  --[133] t=1781824935.56
+  {"Oak Planks", CFrame.new(612, 10, 148, 0, 0, 1, 0), workspace.Baseplate},
+  --[134] t=1781824936.96
+  {"Oak Planks", CFrame.new(580, 10, 152, 0, 0, 1, 0), workspace.Baseplate},
+  --[135] t=1781824938.36
+  {"Oak Planks", CFrame.new(612, 10, 152, 0, 0, 1, 0), workspace.Baseplate},
+  --[136] t=1781824939.76
+  {"Oak Planks", CFrame.new(580, 10, 156, 0, 0, 1, 0), workspace.Baseplate},
+  --[137] t=1781824941.16
+  {"Oak Planks", CFrame.new(612, 10, 156, 0, 0, 1, 0), workspace.Baseplate},
+  --[138] t=1781824942.56
+  {"Oak Planks", CFrame.new(580, 10, 160, 0, 0, 1, 0), workspace.Baseplate},
+  --[139] t=1781824943.96
+  {"Oak Planks", CFrame.new(612, 10, 160, 0, 0, 1, 0), workspace.Baseplate},
+  --[140] t=1781824945.36
+  {"Oak Planks", CFrame.new(580, 10, 164, 0, 0, 1, 0), workspace.Baseplate},
+  --[141] t=1781824946.76
+  {"Oak Planks", CFrame.new(612, 10, 164, 0, 0, 1, 0), workspace.Baseplate},
+  --[142] t=1781824948.16
+  {"Oak Planks", CFrame.new(580, 10, 168, 0, 0, 1, 0), workspace.Baseplate},
+  --[143] t=1781824949.56
+  {"Oak Planks", CFrame.new(612, 10, 168, 0, 0, 1, 0), workspace.Baseplate},
+  --[144] t=1781824950.96
+  {"Oak Planks", CFrame.new(580, 10, 172, 0, 0, 1, 0), workspace.Baseplate},
+  --[145] t=1781824952.36
+  {"Oak Planks", CFrame.new(612, 10, 172, 0, 0, 1, 0), workspace.Baseplate},
+  --[146] t=1781824953.76
+  {"Oak Planks", CFrame.new(580, 14, 144, 0, 0, 1, 0), workspace.Baseplate},
+  --[147] t=1781824955.16
+  {"Oak Planks", CFrame.new(580, 14, 176, 0, 0, 1, 0), workspace.Baseplate},
+  --[148] t=1781824956.56
+  {"Oak Planks", CFrame.new(584, 14, 144, 0, 0, 1, 0), workspace.Baseplate},
+  --[149] t=1781824957.96
+  {"Oak Planks", CFrame.new(584, 14, 176, 0, 0, 1, 0), workspace.Baseplate},
+  --[150] t=1781824959.36
+  {"Oak Planks", CFrame.new(588, 14, 144, 0, 0, 1, 0), workspace.Baseplate},
+  --[151] t=1781824960.76
+  {"Oak Planks", CFrame.new(588, 14, 176, 0, 0, 1, 0), workspace.Baseplate},
+  --[152] t=1781824962.16
+  {"Oak Planks", CFrame.new(592, 14, 144, 0, 0, 1, 0), workspace.Baseplate},
+  --[153] t=1781824963.56
+  {"Oak Planks", CFrame.new(592, 14, 176, 0, 0, 1, 0), workspace.Baseplate},
+  --[154] t=1781824964.96
+  {"Oak Planks", CFrame.new(596, 14, 144, 0, 0, 1, 0), workspace.Baseplate},
+  --[155] t=1781824966.36
+  {"Oak Planks", CFrame.new(596, 14, 176, 0, 0, 1, 0), workspace.Baseplate},
+  --[156] t=1781824967.76
+  {"Oak Planks", CFrame.new(600, 14, 144, 0, 0, 1, 0), workspace.Baseplate},
+  --[157] t=1781824969.16
+  {"Oak Planks", CFrame.new(600, 14, 176, 0, 0, 1, 0), workspace.Baseplate},
+  --[158] t=1781824970.56
+  {"Oak Planks", CFrame.new(604, 14, 144, 0, 0, 1, 0), workspace.Baseplate},
+  --[159] t=1781824971.96
+  {"Oak Planks", CFrame.new(604, 14, 176, 0, 0, 1, 0), workspace.Baseplate},
+  --[160] t=1781824973.36
+  {"Oak Planks", CFrame.new(608, 14, 144, 0, 0, 1, 0), workspace.Baseplate},
+  --[161] t=1781824974.76
+  {"Oak Planks", CFrame.new(608, 14, 176, 0, 0, 1, 0), workspace.Baseplate},
+  --[162] t=1781824976.16
+  {"Oak Planks", CFrame.new(612, 14, 144, 0, 0, 1, 0), workspace.Baseplate},
+  --[163] t=1781824977.56
+  {"Oak Planks", CFrame.new(612, 14, 176, 0, 0, 1, 0), workspace.Baseplate},
+  --[164] t=1781824978.96
+  {"Oak Planks", CFrame.new(580, 14, 148, 0, 0, 1, 0), workspace.Baseplate},
+  --[165] t=1781824980.36
+  {"Oak Planks", CFrame.new(612, 14, 148, 0, 0, 1, 0), workspace.Baseplate},
+  --[166] t=1781824981.76
+  {"Oak Planks", CFrame.new(580, 14, 152, 0, 0, 1, 0), workspace.Baseplate},
+  --[167] t=1781824983.16
+  {"Oak Planks", CFrame.new(612, 14, 152, 0, 0, 1, 0), workspace.Baseplate},
+  --[168] t=1781824984.56
+  {"Oak Planks", CFrame.new(580, 14, 156, 0, 0, 1, 0), workspace.Baseplate},
+  --[169] t=1781824985.96
+  {"Oak Planks", CFrame.new(612, 14, 156, 0, 0, 1, 0), workspace.Baseplate},
+  --[170] t=1781824987.36
+  {"Oak Planks", CFrame.new(580, 14, 160, 0, 0, 1, 0), workspace.Baseplate},
+  --[171] t=1781824988.76
+  {"Oak Planks", CFrame.new(612, 14, 160, 0, 0, 1, 0), workspace.Baseplate},
+  --[172] t=1781824990.16
+  {"Oak Planks", CFrame.new(580, 14, 164, 0, 0, 1, 0), workspace.Baseplate},
+  --[173] t=1781824991.56
+  {"Oak Planks", CFrame.new(612, 14, 164, 0, 0, 1, 0), workspace.Baseplate},
+  --[174] t=1781824992.96
+  {"Oak Planks", CFrame.new(580, 14, 168, 0, 0, 1, 0), workspace.Baseplate},
+  --[175] t=1781824994.36
+  {"Oak Planks", CFrame.new(612, 14, 168, 0, 0, 1, 0), workspace.Baseplate},
+  --[176] t=1781824995.76
+  {"Oak Planks", CFrame.new(580, 14, 172, 0, 0, 1, 0), workspace.Baseplate},
+  --[177] t=1781824997.16
+  {"Oak Planks", CFrame.new(612, 14, 172, 0, 0, 1, 0), workspace.Baseplate},
+  --[178] t=1781824998.56
+  {"Oak Planks", CFrame.new(580, 18, 144, 0, 0, 1, 0), workspace.Baseplate},
+  --[179] t=1781824999.96
+  {"Oak Planks", CFrame.new(580, 18, 148, 0, 0, 1, 0), workspace.Baseplate},
+  --[180] t=1781825001.36
+  {"Oak Planks", CFrame.new(580, 18, 152, 0, 0, 1, 0), workspace.Baseplate},
+  --[181] t=1781825002.76
+  {"Oak Planks", CFrame.new(580, 18, 156, 0, 0, 1, 0), workspace.Baseplate},
+  --[182] t=1781825004.16
+  {"Oak Planks", CFrame.new(580, 18, 160, 0, 0, 1, 0), workspace.Baseplate},
+  --[183] t=1781825005.56
+  {"Oak Planks", CFrame.new(580, 18, 164, 0, 0, 1, 0), workspace.Baseplate},
+  --[184] t=1781825006.96
+  {"Oak Planks", CFrame.new(580, 18, 168, 0, 0, 1, 0), workspace.Baseplate},
+  --[185] t=1781825008.36
+  {"Oak Planks", CFrame.new(580, 18, 172, 0, 0, 1, 0), workspace.Baseplate},
+  --[186] t=1781825009.76
+  {"Oak Planks", CFrame.new(580, 18, 176, 0, 0, 1, 0), workspace.Baseplate},
+  --[187] t=1781825011.16
+  {"Oak Planks", CFrame.new(584, 18, 144, 0, 0, 1, 0), workspace.Baseplate},
+  --[188] t=1781825012.56
+  {"Oak Planks", CFrame.new(584, 18, 148, 0, 0, 1, 0), workspace.Baseplate},
+  --[189] t=1781825013.96
+  {"Oak Planks", CFrame.new(584, 18, 152, 0, 0, 1, 0), workspace.Baseplate},
+  --[190] t=1781825015.36
+  {"Oak Planks", CFrame.new(584, 18, 156, 0, 0, 1, 0), workspace.Baseplate},
+  --[191] t=1781825016.76
+  {"Oak Planks", CFrame.new(584, 18, 160, 0, 0, 1, 0), workspace.Baseplate},
+  --[192] t=1781825018.16
+  {"Oak Planks", CFrame.new(584, 18, 164, 0, 0, 1, 0), workspace.Baseplate},
+  --[193] t=1781825019.56
+  {"Oak Planks", CFrame.new(584, 18, 168, 0, 0, 1, 0), workspace.Baseplate},
+  --[194] t=1781825020.96
+  {"Oak Planks", CFrame.new(584, 18, 172, 0, 0, 1, 0), workspace.Baseplate},
+  --[195] t=1781825022.36
+  {"Oak Planks", CFrame.new(584, 18, 176, 0, 0, 1, 0), workspace.Baseplate},
+  --[196] t=1781825023.76
+  {"Oak Planks", CFrame.new(588, 18, 144, 0, 0, 1, 0), workspace.Baseplate},
+  --[197] t=1781825025.16
+  {"Oak Planks", CFrame.new(588, 18, 148, 0, 0, 1, 0), workspace.Baseplate},
+  --[198] t=1781825026.56
+  {"Oak Planks", CFrame.new(588, 18, 152, 0, 0, 1, 0), workspace.Baseplate},
+  --[199] t=1781825027.96
+  {"Oak Planks", CFrame.new(588, 18, 156, 0, 0, 1, 0), workspace.Baseplate},
+  --[200] t=1781825029.36
+  {"Oak Planks", CFrame.new(588, 18, 160, 0, 0, 1, 0), workspace.Baseplate},
+  --[201] t=1781825030.76
+  {"Oak Planks", CFrame.new(588, 18, 164, 0, 0, 1, 0), workspace.Baseplate},
+  --[202] t=1781825032.16
+  {"Oak Planks", CFrame.new(588, 18, 168, 0, 0, 1, 0), workspace.Baseplate},
+  --[203] t=1781825033.56
+  {"Oak Planks", CFrame.new(588, 18, 172, 0, 0, 1, 0), workspace.Baseplate},
+  --[204] t=1781825034.96
+  {"Oak Planks", CFrame.new(588, 18, 176, 0, 0, 1, 0), workspace.Baseplate},
+  --[205] t=1781825036.36
+  {"Oak Planks", CFrame.new(592, 18, 144, 0, 0, 1, 0), workspace.Baseplate},
+  --[206] t=1781825037.76
+  {"Oak Planks", CFrame.new(592, 18, 148, 0, 0, 1, 0), workspace.Baseplate},
+  --[207] t=1781825039.16
+  {"Oak Planks", CFrame.new(592, 18, 152, 0, 0, 1, 0), workspace.Baseplate},
+  --[208] t=1781825040.56
+  {"Oak Planks", CFrame.new(592, 18, 156, 0, 0, 1, 0), workspace.Baseplate},
+  --[209] t=1781825041.96
+  {"Oak Planks", CFrame.new(592, 18, 160, 0, 0, 1, 0), workspace.Baseplate},
+  --[210] t=1781825043.36
+  {"Oak Planks", CFrame.new(592, 18, 164, 0, 0, 1, 0), workspace.Baseplate},
+  --[211] t=1781825044.76
+  {"Oak Planks", CFrame.new(592, 18, 168, 0, 0, 1, 0), workspace.Baseplate},
+  --[212] t=1781825046.16
+  {"Oak Planks", CFrame.new(592, 18, 172, 0, 0, 1, 0), workspace.Baseplate},
+  --[213] t=1781825047.56
+  {"Oak Planks", CFrame.new(592, 18, 176, 0, 0, 1, 0), workspace.Baseplate},
+  --[214] t=1781825048.96
+  {"Oak Planks", CFrame.new(596, 18, 144, 0, 0, 1, 0), workspace.Baseplate},
+  --[215] t=1781825050.36
+  {"Oak Planks", CFrame.new(596, 18, 148, 0, 0, 1, 0), workspace.Baseplate},
+  --[216] t=1781825051.76
+  {"Oak Planks", CFrame.new(596, 18, 152, 0, 0, 1, 0), workspace.Baseplate},
+  --[217] t=1781825053.16
+  {"Oak Planks", CFrame.new(596, 18, 156, 0, 0, 1, 0), workspace.Baseplate},
+  --[218] t=1781825054.56
+  {"Oak Planks", CFrame.new(596, 18, 160, 0, 0, 1, 0), workspace.Baseplate},
+  --[219] t=1781825055.96
+  {"Oak Planks", CFrame.new(596, 18, 164, 0, 0, 1, 0), workspace.Baseplate},
+  --[220] t=1781825057.36
+  {"Oak Planks", CFrame.new(596, 18, 168, 0, 0, 1, 0), workspace.Baseplate},
+  --[221] t=1781825058.76
+  {"Oak Planks", CFrame.new(596, 18, 172, 0, 0, 1, 0), workspace.Baseplate},
+  --[222] t=1781825060.16
+  {"Oak Planks", CFrame.new(596, 18, 176, 0, 0, 1, 0), workspace.Baseplate},
+  --[223] t=1781825061.56
+  {"Oak Planks", CFrame.new(600, 18, 144, 0, 0, 1, 0), workspace.Baseplate},
+  --[224] t=1781825062.96
+  {"Oak Planks", CFrame.new(600, 18, 148, 0, 0, 1, 0), workspace.Baseplate},
+  --[225] t=1781825064.36
+  {"Oak Planks", CFrame.new(600, 18, 152, 0, 0, 1, 0), workspace.Baseplate},
+  --[226] t=1781825065.76
+  {"Oak Planks", CFrame.new(600, 18, 156, 0, 0, 1, 0), workspace.Baseplate},
+  --[227] t=1781825067.16
+  {"Oak Planks", CFrame.new(600, 18, 160, 0, 0, 1, 0), workspace.Baseplate},
+  --[228] t=1781825068.56
+  {"Oak Planks", CFrame.new(600, 18, 164, 0, 0, 1, 0), workspace.Baseplate},
+  --[229] t=1781825069.96
+  {"Oak Planks", CFrame.new(600, 18, 168, 0, 0, 1, 0), workspace.Baseplate},
+  --[230] t=1781825071.36
+  {"Oak Planks", CFrame.new(600, 18, 172, 0, 0, 1, 0), workspace.Baseplate},
+  --[231] t=1781825072.76
+  {"Oak Planks", CFrame.new(600, 18, 176, 0, 0, 1, 0), workspace.Baseplate},
+  --[232] t=1781825074.16
+  {"Oak Planks", CFrame.new(604, 18, 144, 0, 0, 1, 0), workspace.Baseplate},
+  --[233] t=1781825075.56
+  {"Oak Planks", CFrame.new(604, 18, 148, 0, 0, 1, 0), workspace.Baseplate},
+  --[234] t=1781825076.96
+  {"Oak Planks", CFrame.new(604, 18, 152, 0, 0, 1, 0), workspace.Baseplate},
+  --[235] t=1781825078.36
+  {"Oak Planks", CFrame.new(604, 18, 156, 0, 0, 1, 0), workspace.Baseplate},
+  --[236] t=1781825079.76
+  {"Oak Planks", CFrame.new(604, 18, 160, 0, 0, 1, 0), workspace.Baseplate},
+  --[237] t=1781825081.16
+  {"Oak Planks", CFrame.new(604, 18, 164, 0, 0, 1, 0), workspace.Baseplate},
+  --[238] t=1781825082.56
+  {"Oak Planks", CFrame.new(604, 18, 168, 0, 0, 1, 0), workspace.Baseplate},
+  --[239] t=1781825083.96
+  {"Oak Planks", CFrame.new(604, 18, 172, 0, 0, 1, 0), workspace.Baseplate},
+  --[240] t=1781825085.36
+  {"Oak Planks", CFrame.new(604, 18, 176, 0, 0, 1, 0), workspace.Baseplate},
+  --[241] t=1781825086.76
+  {"Oak Planks", CFrame.new(608, 18, 144, 0, 0, 1, 0), workspace.Baseplate},
+  --[242] t=1781825088.16
+  {"Oak Planks", CFrame.new(608, 18, 148, 0, 0, 1, 0), workspace.Baseplate},
+  --[243] t=1781825089.56
+  {"Oak Planks", CFrame.new(608, 18, 152, 0, 0, 1, 0), workspace.Baseplate},
+  --[244] t=1781825090.96
+  {"Oak Planks", CFrame.new(608, 18, 156, 0, 0, 1, 0), workspace.Baseplate},
+  --[245] t=1781825092.36
+  {"Oak Planks", CFrame.new(608, 18, 160, 0, 0, 1, 0), workspace.Baseplate},
+  --[246] t=1781825093.76
+  {"Oak Planks", CFrame.new(608, 18, 164, 0, 0, 1, 0), workspace.Baseplate},
+  --[247] t=1781825095.16
+  {"Oak Planks", CFrame.new(608, 18, 168, 0, 0, 1, 0), workspace.Baseplate},
+  --[248] t=1781825096.56
+  {"Oak Planks", CFrame.new(608, 18, 172, 0, 0, 1, 0), workspace.Baseplate},
+  --[249] t=1781825097.96
+  {"Oak Planks", CFrame.new(608, 18, 176, 0, 0, 1, 0), workspace.Baseplate},
+  --[250] t=1781825099.36
+  {"Oak Planks", CFrame.new(612, 18, 144, 0, 0, 1, 0), workspace.Baseplate},
+  --[251] t=1781825100.76
+  {"Oak Planks", CFrame.new(612, 18, 148, 0, 0, 1, 0), workspace.Baseplate},
+  --[252] t=1781825102.16
+  {"Oak Planks", CFrame.new(612, 18, 152, 0, 0, 1, 0), workspace.Baseplate},
+  --[253] t=1781825103.56
+  {"Oak Planks", CFrame.new(612, 18, 156, 0, 0, 1, 0), workspace.Baseplate},
+  --[254] t=1781825104.96
+  {"Oak Planks", CFrame.new(612, 18, 160, 0, 0, 1, 0), workspace.Baseplate},
+  --[255] t=1781825106.36
+  {"Oak Planks", CFrame.new(612, 18, 164, 0, 0, 1, 0), workspace.Baseplate},
+  --[256] t=1781825107.76
+  {"Oak Planks", CFrame.new(612, 18, 168, 0, 0, 1, 0), workspace.Baseplate},
+  --[257] t=1781825109.16
+  {"Oak Planks", CFrame.new(612, 18, 172, 0, 0, 1, 0), workspace.Baseplate},
+  --[258] t=1781825110.56
+  {"Oak Planks", CFrame.new(612, 18, 176, 0, 0, 1, 0), workspace.Baseplate},
+}
+
+local claudehousev2 = {
+  --[1] t=1781825415.31
+  {"Cobblestone", CFrame.new(628, 2, 60, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[2] t=1781825416.71
+  {"Cobblestone", CFrame.new(628, 2, 64, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[3] t=1781825418.11
+  {"Cobblestone", CFrame.new(628, 2, 68, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[4] t=1781825419.51
+  {"Cobblestone", CFrame.new(628, 2, 72, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[5] t=1781825420.91
+  {"Cobblestone", CFrame.new(628, 2, 76, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[6] t=1781825422.31
+  {"Cobblestone", CFrame.new(628, 2, 80, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[7] t=1781825423.71
+  {"Cobblestone", CFrame.new(628, 2, 84, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[8] t=1781825425.11
+  {"Cobblestone", CFrame.new(628, 2, 88, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[9] t=1781825426.51
+  {"Cobblestone", CFrame.new(628, 2, 92, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[10] t=1781825427.91
+  {"Cobblestone", CFrame.new(632, 2, 60, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[11] t=1781825429.31
+  {"Cobblestone", CFrame.new(632, 2, 64, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[12] t=1781825430.71
+  {"Cobblestone", CFrame.new(632, 2, 68, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[13] t=1781825432.11
+  {"Cobblestone", CFrame.new(632, 2, 72, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[14] t=1781825433.51
+  {"Cobblestone", CFrame.new(632, 2, 76, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[15] t=1781825434.91
+  {"Cobblestone", CFrame.new(632, 2, 80, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[16] t=1781825436.31
+  {"Cobblestone", CFrame.new(632, 2, 84, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[17] t=1781825437.71
+  {"Cobblestone", CFrame.new(632, 2, 88, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[18] t=1781825439.11
+  {"Cobblestone", CFrame.new(632, 2, 92, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[19] t=1781825440.51
+  {"Cobblestone", CFrame.new(636, 2, 60, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[20] t=1781825441.91
+  {"Cobblestone", CFrame.new(636, 2, 64, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[21] t=1781825443.31
+  {"Cobblestone", CFrame.new(636, 2, 68, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[22] t=1781825444.71
+  {"Cobblestone", CFrame.new(636, 2, 72, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[23] t=1781825446.11
+  {"Cobblestone", CFrame.new(636, 2, 76, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[24] t=1781825447.51
+  {"Cobblestone", CFrame.new(636, 2, 80, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[25] t=1781825448.91
+  {"Cobblestone", CFrame.new(636, 2, 84, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[26] t=1781825450.31
+  {"Cobblestone", CFrame.new(636, 2, 88, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[27] t=1781825451.71
+  {"Cobblestone", CFrame.new(636, 2, 92, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[28] t=1781825453.11
+  {"Cobblestone", CFrame.new(640, 2, 60, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[29] t=1781825454.51
+  {"Cobblestone", CFrame.new(640, 2, 64, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[30] t=1781825455.91
+  {"Cobblestone", CFrame.new(640, 2, 68, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[31] t=1781825457.31
+  {"Cobblestone", CFrame.new(640, 2, 72, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[32] t=1781825458.71
+  {"Cobblestone", CFrame.new(640, 2, 76, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[33] t=1781825460.11
+  {"Cobblestone", CFrame.new(640, 2, 80, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[34] t=1781825461.51
+  {"Cobblestone", CFrame.new(640, 2, 84, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[35] t=1781825462.91
+  {"Cobblestone", CFrame.new(640, 2, 88, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[36] t=1781825464.31
+  {"Cobblestone", CFrame.new(640, 2, 92, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[37] t=1781825465.71
+  {"Cobblestone", CFrame.new(644, 2, 60, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[38] t=1781825467.11
+  {"Cobblestone", CFrame.new(644, 2, 64, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[39] t=1781825468.51
+  {"Cobblestone", CFrame.new(644, 2, 68, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[40] t=1781825469.91
+  {"Cobblestone", CFrame.new(644, 2, 72, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[41] t=1781825471.31
+  {"Cobblestone", CFrame.new(644, 2, 76, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[42] t=1781825472.71
+  {"Cobblestone", CFrame.new(644, 2, 80, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[43] t=1781825474.11
+  {"Cobblestone", CFrame.new(644, 2, 84, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[44] t=1781825475.51
+  {"Cobblestone", CFrame.new(644, 2, 88, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[45] t=1781825476.91
+  {"Cobblestone", CFrame.new(644, 2, 92, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[46] t=1781825478.31
+  {"Cobblestone", CFrame.new(648, 2, 60, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[47] t=1781825479.71
+  {"Cobblestone", CFrame.new(648, 2, 64, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[48] t=1781825481.11
+  {"Cobblestone", CFrame.new(648, 2, 68, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[49] t=1781825482.51
+  {"Cobblestone", CFrame.new(648, 2, 72, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[50] t=1781825483.91
+  {"Cobblestone", CFrame.new(648, 2, 76, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[51] t=1781825485.31
+  {"Cobblestone", CFrame.new(648, 2, 80, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[52] t=1781825486.71
+  {"Cobblestone", CFrame.new(648, 2, 84, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[53] t=1781825488.11
+  {"Cobblestone", CFrame.new(648, 2, 88, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[54] t=1781825489.51
+  {"Cobblestone", CFrame.new(648, 2, 92, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[55] t=1781825490.91
+  {"Cobblestone", CFrame.new(652, 2, 60, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[56] t=1781825492.31
+  {"Cobblestone", CFrame.new(652, 2, 64, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[57] t=1781825493.71
+  {"Cobblestone", CFrame.new(652, 2, 68, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[58] t=1781825495.11
+  {"Cobblestone", CFrame.new(652, 2, 72, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[59] t=1781825496.51
+  {"Cobblestone", CFrame.new(652, 2, 76, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[60] t=1781825497.91
+  {"Cobblestone", CFrame.new(652, 2, 80, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[61] t=1781825499.31
+  {"Cobblestone", CFrame.new(652, 2, 84, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[62] t=1781825500.71
+  {"Cobblestone", CFrame.new(652, 2, 88, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[63] t=1781825502.11
+  {"Cobblestone", CFrame.new(652, 2, 92, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[64] t=1781825503.51
+  {"Cobblestone", CFrame.new(656, 2, 60, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[65] t=1781825504.91
+  {"Cobblestone", CFrame.new(656, 2, 64, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[66] t=1781825506.31
+  {"Cobblestone", CFrame.new(656, 2, 68, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[67] t=1781825507.71
+  {"Cobblestone", CFrame.new(656, 2, 72, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[68] t=1781825509.11
+  {"Cobblestone", CFrame.new(656, 2, 76, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[69] t=1781825510.51
+  {"Cobblestone", CFrame.new(656, 2, 80, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[70] t=1781825511.91
+  {"Cobblestone", CFrame.new(656, 2, 84, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[71] t=1781825513.31
+  {"Cobblestone", CFrame.new(656, 2, 88, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[72] t=1781825514.71
+  {"Cobblestone", CFrame.new(656, 2, 92, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[73] t=1781825516.11
+  {"Cobblestone", CFrame.new(660, 2, 60, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[74] t=1781825517.51
+  {"Cobblestone", CFrame.new(660, 2, 64, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[75] t=1781825518.91
+  {"Cobblestone", CFrame.new(660, 2, 68, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[76] t=1781825520.31
+  {"Cobblestone", CFrame.new(660, 2, 72, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[77] t=1781825521.71
+  {"Cobblestone", CFrame.new(660, 2, 76, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[78] t=1781825523.11
+  {"Cobblestone", CFrame.new(660, 2, 80, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[79] t=1781825524.51
+  {"Cobblestone", CFrame.new(660, 2, 84, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[80] t=1781825525.91
+  {"Cobblestone", CFrame.new(660, 2, 88, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[81] t=1781825527.31
+  {"Cobblestone", CFrame.new(660, 2, 92, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[82] t=1781825528.71
+  {"Oak Log", CFrame.new(628, 6, 60, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[83] t=1781825530.11
+  {"Oak Log", CFrame.new(628, 6, 92, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[84] t=1781825531.51
+  {"Bricks", CFrame.new(632, 6, 60, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[85] t=1781825532.91
+  {"Bricks", CFrame.new(632, 6, 92, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[86] t=1781825534.31
+  {"Bricks", CFrame.new(636, 6, 60, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[87] t=1781825535.71
+  {"Bricks", CFrame.new(636, 6, 92, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[88] t=1781825537.11
+  {"Bricks", CFrame.new(640, 6, 60, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[89] t=1781825538.51
+  {"Bricks", CFrame.new(640, 6, 92, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[90] t=1781825539.91
+  {"Bricks", CFrame.new(644, 6, 60, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[91] t=1781825541.31
+  {"Bricks", CFrame.new(648, 6, 60, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[92] t=1781825542.71
+  {"Bricks", CFrame.new(648, 6, 92, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[93] t=1781825544.11
+  {"Bricks", CFrame.new(652, 6, 60, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[94] t=1781825545.51
+  {"Bricks", CFrame.new(652, 6, 92, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[95] t=1781825546.91
+  {"Bricks", CFrame.new(656, 6, 60, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[96] t=1781825548.31
+  {"Bricks", CFrame.new(656, 6, 92, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[97] t=1781825549.71
+  {"Oak Log", CFrame.new(660, 6, 60, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[98] t=1781825551.11
+  {"Oak Log", CFrame.new(660, 6, 92, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[99] t=1781825552.51
+  {"Bricks", CFrame.new(628, 6, 64, -4.371138828673793e-08, 0, 1, 0), workspace.Baseplate},
+  --[100] t=1781825553.91
+  {"Bricks", CFrame.new(660, 6, 64, -4.371138828673793e-08, 0, 1, 0), workspace.Baseplate},
+  --[101] t=1781825555.31
+  {"Bricks", CFrame.new(628, 6, 68, -4.371138828673793e-08, 0, 1, 0), workspace.Baseplate},
+  --[102] t=1781825556.71
+  {"Bricks", CFrame.new(660, 6, 68, -4.371138828673793e-08, 0, 1, 0), workspace.Baseplate},
+  --[103] t=1781825558.11
+  {"Bricks", CFrame.new(628, 6, 72, -4.371138828673793e-08, 0, 1, 0), workspace.Baseplate},
+  --[104] t=1781825559.51
+  {"Bricks", CFrame.new(660, 6, 72, -4.371138828673793e-08, 0, 1, 0), workspace.Baseplate},
+  --[105] t=1781825560.91
+  {"Bricks", CFrame.new(628, 6, 76, -4.371138828673793e-08, 0, 1, 0), workspace.Baseplate},
+  --[106] t=1781825562.31
+  {"Bricks", CFrame.new(660, 6, 76, -4.371138828673793e-08, 0, 1, 0), workspace.Baseplate},
+  --[107] t=1781825563.71
+  {"Bricks", CFrame.new(628, 6, 80, -4.371138828673793e-08, 0, 1, 0), workspace.Baseplate},
+  --[108] t=1781825565.11
+  {"Bricks", CFrame.new(660, 6, 80, -4.371138828673793e-08, 0, 1, 0), workspace.Baseplate},
+  --[109] t=1781825566.51
+  {"Bricks", CFrame.new(628, 6, 84, -4.371138828673793e-08, 0, 1, 0), workspace.Baseplate},
+  --[110] t=1781825567.91
+  {"Bricks", CFrame.new(660, 6, 84, -4.371138828673793e-08, 0, 1, 0), workspace.Baseplate},
+  --[111] t=1781825569.31
+  {"Bricks", CFrame.new(628, 6, 88, -4.371138828673793e-08, 0, 1, 0), workspace.Baseplate},
+  --[112] t=1781825570.71
+  {"Bricks", CFrame.new(660, 6, 88, -4.371138828673793e-08, 0, 1, 0), workspace.Baseplate},
+  --[113] t=1781825572.11
+  {"Oak Log", CFrame.new(628, 10, 60, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[114] t=1781825573.51
+  {"Oak Log", CFrame.new(628, 10, 92, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[115] t=1781825574.91
+  {"Bricks", CFrame.new(632, 10, 60, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[116] t=1781825576.31
+  {"Bricks", CFrame.new(632, 10, 92, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[117] t=1781825577.71
+  {"Glass", CFrame.new(636, 10, 60, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[118] t=1781825579.11
+  {"Glass", CFrame.new(636, 10, 92, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[119] t=1781825580.51
+  {"Bricks", CFrame.new(640, 10, 60, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[120] t=1781825581.91
+  {"Bricks", CFrame.new(640, 10, 92, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[121] t=1781825583.31
+  {"Glass", CFrame.new(644, 10, 60, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[122] t=1781825584.71
+  {"Bricks", CFrame.new(648, 10, 60, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[123] t=1781825586.11
+  {"Bricks", CFrame.new(648, 10, 92, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[124] t=1781825587.51
+  {"Glass", CFrame.new(652, 10, 60, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[125] t=1781825588.91
+  {"Glass", CFrame.new(652, 10, 92, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[126] t=1781825590.31
+  {"Bricks", CFrame.new(656, 10, 60, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[127] t=1781825591.71
+  {"Bricks", CFrame.new(656, 10, 92, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[128] t=1781825593.11
+  {"Oak Log", CFrame.new(660, 10, 60, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[129] t=1781825594.51
+  {"Oak Log", CFrame.new(660, 10, 92, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[130] t=1781825595.91
+  {"Bricks", CFrame.new(628, 10, 64, -4.371138828673793e-08, 0, 1, 0), workspace.Baseplate},
+  --[131] t=1781825597.31
+  {"Bricks", CFrame.new(660, 10, 64, -4.371138828673793e-08, 0, 1, 0), workspace.Baseplate},
+  --[132] t=1781825598.71
+  {"Glass", CFrame.new(628, 10, 68, -4.371138828673793e-08, 0, 1, 0), workspace.Baseplate},
+  --[133] t=1781825600.11
+  {"Glass", CFrame.new(660, 10, 68, -4.371138828673793e-08, 0, 1, 0), workspace.Baseplate},
+  --[134] t=1781825601.51
+  {"Bricks", CFrame.new(628, 10, 72, -4.371138828673793e-08, 0, 1, 0), workspace.Baseplate},
+  --[135] t=1781825602.91
+  {"Bricks", CFrame.new(660, 10, 72, -4.371138828673793e-08, 0, 1, 0), workspace.Baseplate},
+  --[136] t=1781825604.31
+  {"Glass", CFrame.new(628, 10, 76, -4.371138828673793e-08, 0, 1, 0), workspace.Baseplate},
+  --[137] t=1781825605.71
+  {"Glass", CFrame.new(660, 10, 76, -4.371138828673793e-08, 0, 1, 0), workspace.Baseplate},
+  --[138] t=1781825607.11
+  {"Bricks", CFrame.new(628, 10, 80, -4.371138828673793e-08, 0, 1, 0), workspace.Baseplate},
+  --[139] t=1781825608.51
+  {"Bricks", CFrame.new(660, 10, 80, -4.371138828673793e-08, 0, 1, 0), workspace.Baseplate},
+  --[140] t=1781825609.91
+  {"Glass", CFrame.new(628, 10, 84, -4.371138828673793e-08, 0, 1, 0), workspace.Baseplate},
+  --[141] t=1781825611.31
+  {"Glass", CFrame.new(660, 10, 84, -4.371138828673793e-08, 0, 1, 0), workspace.Baseplate},
+  --[142] t=1781825612.71
+  {"Bricks", CFrame.new(628, 10, 88, -4.371138828673793e-08, 0, 1, 0), workspace.Baseplate},
+  --[143] t=1781825614.11
+  {"Bricks", CFrame.new(660, 10, 88, -4.371138828673793e-08, 0, 1, 0), workspace.Baseplate},
+  --[144] t=1781825615.51
+  {"Oak Log", CFrame.new(628, 14, 60, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[145] t=1781825616.91
+  {"Oak Log", CFrame.new(628, 14, 92, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[146] t=1781825618.31
+  {"Bricks", CFrame.new(632, 14, 60, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[147] t=1781825619.71
+  {"Bricks", CFrame.new(632, 14, 92, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[148] t=1781825621.11
+  {"Bricks", CFrame.new(636, 14, 60, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[149] t=1781825622.51
+  {"Bricks", CFrame.new(636, 14, 92, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[150] t=1781825623.91
+  {"Bricks", CFrame.new(640, 14, 60, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[151] t=1781825625.31
+  {"Bricks", CFrame.new(640, 14, 92, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[152] t=1781825626.71
+  {"Bricks", CFrame.new(644, 14, 60, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[153] t=1781825628.11
+  {"Bricks", CFrame.new(644, 14, 92, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[154] t=1781825629.51
+  {"Bricks", CFrame.new(648, 14, 60, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[155] t=1781825630.91
+  {"Bricks", CFrame.new(648, 14, 92, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[156] t=1781825632.31
+  {"Bricks", CFrame.new(652, 14, 60, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[157] t=1781825633.71
+  {"Bricks", CFrame.new(652, 14, 92, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[158] t=1781825635.11
+  {"Bricks", CFrame.new(656, 14, 60, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[159] t=1781825636.51
+  {"Bricks", CFrame.new(656, 14, 92, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[160] t=1781825637.91
+  {"Oak Log", CFrame.new(660, 14, 60, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[161] t=1781825639.31
+  {"Oak Log", CFrame.new(660, 14, 92, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[162] t=1781825640.71
+  {"Bricks", CFrame.new(628, 14, 64, -4.371138828673793e-08, 0, 1, 0), workspace.Baseplate},
+  --[163] t=1781825642.11
+  {"Bricks", CFrame.new(660, 14, 64, -4.371138828673793e-08, 0, 1, 0), workspace.Baseplate},
+  --[164] t=1781825643.51
+  {"Bricks", CFrame.new(628, 14, 68, -4.371138828673793e-08, 0, 1, 0), workspace.Baseplate},
+  --[165] t=1781825644.91
+  {"Bricks", CFrame.new(660, 14, 68, -4.371138828673793e-08, 0, 1, 0), workspace.Baseplate},
+  --[166] t=1781825646.31
+  {"Bricks", CFrame.new(628, 14, 72, -4.371138828673793e-08, 0, 1, 0), workspace.Baseplate},
+  --[167] t=1781825647.71
+  {"Bricks", CFrame.new(660, 14, 72, -4.371138828673793e-08, 0, 1, 0), workspace.Baseplate},
+  --[168] t=1781825649.11
+  {"Bricks", CFrame.new(628, 14, 76, -4.371138828673793e-08, 0, 1, 0), workspace.Baseplate},
+  --[169] t=1781825650.51
+  {"Bricks", CFrame.new(660, 14, 76, -4.371138828673793e-08, 0, 1, 0), workspace.Baseplate},
+  --[170] t=1781825651.91
+  {"Bricks", CFrame.new(628, 14, 80, -4.371138828673793e-08, 0, 1, 0), workspace.Baseplate},
+  --[171] t=1781825653.31
+  {"Bricks", CFrame.new(660, 14, 80, -4.371138828673793e-08, 0, 1, 0), workspace.Baseplate},
+  --[172] t=1781825654.71
+  {"Bricks", CFrame.new(628, 14, 84, -4.371138828673793e-08, 0, 1, 0), workspace.Baseplate},
+  --[173] t=1781825656.11
+  {"Bricks", CFrame.new(660, 14, 84, -4.371138828673793e-08, 0, 1, 0), workspace.Baseplate},
+  --[174] t=1781825657.51
+  {"Bricks", CFrame.new(628, 14, 88, -4.371138828673793e-08, 0, 1, 0), workspace.Baseplate},
+  --[175] t=1781825658.91
+  {"Bricks", CFrame.new(660, 14, 88, -4.371138828673793e-08, 0, 1, 0), workspace.Baseplate},
+  --[176] t=1781825660.31
+  {"Pink Wool", CFrame.new(628, 18, 60, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[177] t=1781825661.71
+  {"Pink Wool", CFrame.new(628, 18, 92, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[178] t=1781825663.11
+  {"Pink Wool", CFrame.new(632, 18, 60, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[179] t=1781825664.51
+  {"Pink Wool", CFrame.new(632, 18, 92, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[180] t=1781825665.91
+  {"Pink Wool", CFrame.new(636, 18, 60, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[181] t=1781825667.31
+  {"Pink Wool", CFrame.new(636, 18, 92, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[182] t=1781825668.71
+  {"Pink Wool", CFrame.new(640, 18, 60, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[183] t=1781825670.11
+  {"Pink Wool", CFrame.new(640, 18, 92, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[184] t=1781825671.51
+  {"Pink Wool", CFrame.new(644, 18, 60, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[185] t=1781825672.91
+  {"Pink Wool", CFrame.new(644, 18, 92, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[186] t=1781825674.31
+  {"Pink Wool", CFrame.new(648, 18, 60, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[187] t=1781825675.71
+  {"Pink Wool", CFrame.new(648, 18, 92, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[188] t=1781825677.11
+  {"Pink Wool", CFrame.new(652, 18, 60, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[189] t=1781825678.51
+  {"Pink Wool", CFrame.new(652, 18, 92, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[190] t=1781825679.91
+  {"Pink Wool", CFrame.new(656, 18, 60, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[191] t=1781825681.31
+  {"Pink Wool", CFrame.new(656, 18, 92, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[192] t=1781825682.71
+  {"Pink Wool", CFrame.new(660, 18, 60, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[193] t=1781825684.11
+  {"Pink Wool", CFrame.new(660, 18, 92, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[194] t=1781825685.51
+  {"Pink Wool", CFrame.new(628, 18, 64, -4.371138828673793e-08, 0, 1, 0), workspace.Baseplate},
+  --[195] t=1781825686.91
+  {"Pink Wool", CFrame.new(660, 18, 64, -4.371138828673793e-08, 0, 1, 0), workspace.Baseplate},
+  --[196] t=1781825688.31
+  {"Pink Wool", CFrame.new(628, 18, 68, -4.371138828673793e-08, 0, 1, 0), workspace.Baseplate},
+  --[197] t=1781825689.71
+  {"Pink Wool", CFrame.new(660, 18, 68, -4.371138828673793e-08, 0, 1, 0), workspace.Baseplate},
+  --[198] t=1781825691.11
+  {"Pink Wool", CFrame.new(628, 18, 72, -4.371138828673793e-08, 0, 1, 0), workspace.Baseplate},
+  --[199] t=1781825692.51
+  {"Pink Wool", CFrame.new(660, 18, 72, -4.371138828673793e-08, 0, 1, 0), workspace.Baseplate},
+  --[200] t=1781825693.91
+  {"Pink Wool", CFrame.new(628, 18, 76, -4.371138828673793e-08, 0, 1, 0), workspace.Baseplate},
+  --[201] t=1781825695.31
+  {"Pink Wool", CFrame.new(660, 18, 76, -4.371138828673793e-08, 0, 1, 0), workspace.Baseplate},
+  --[202] t=1781825696.71
+  {"Pink Wool", CFrame.new(628, 18, 80, -4.371138828673793e-08, 0, 1, 0), workspace.Baseplate},
+  --[203] t=1781825698.11
+  {"Pink Wool", CFrame.new(660, 18, 80, -4.371138828673793e-08, 0, 1, 0), workspace.Baseplate},
+  --[204] t=1781825699.51
+  {"Pink Wool", CFrame.new(628, 18, 84, -4.371138828673793e-08, 0, 1, 0), workspace.Baseplate},
+  --[205] t=1781825700.91
+  {"Pink Wool", CFrame.new(660, 18, 84, -4.371138828673793e-08, 0, 1, 0), workspace.Baseplate},
+  --[206] t=1781825702.31
+  {"Pink Wool", CFrame.new(628, 18, 88, -4.371138828673793e-08, 0, 1, 0), workspace.Baseplate},
+  --[207] t=1781825703.71
+  {"Pink Wool", CFrame.new(660, 18, 88, -4.371138828673793e-08, 0, 1, 0), workspace.Baseplate},
+  --[208] t=1781825705.11
+  {"Oak Planks", CFrame.new(628, 22, 60, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[209] t=1781825706.51
+  {"Oak Planks", CFrame.new(628, 22, 64, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[210] t=1781825707.91
+  {"Oak Planks", CFrame.new(628, 22, 68, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[211] t=1781825709.31
+  {"Oak Planks", CFrame.new(628, 22, 72, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[212] t=1781825710.71
+  {"Oak Planks", CFrame.new(628, 22, 76, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[213] t=1781825712.11
+  {"Oak Planks", CFrame.new(628, 22, 80, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[214] t=1781825713.51
+  {"Oak Planks", CFrame.new(628, 22, 84, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[215] t=1781825714.91
+  {"Oak Planks", CFrame.new(628, 22, 88, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[216] t=1781825716.31
+  {"Oak Planks", CFrame.new(628, 22, 92, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[217] t=1781825717.71
+  {"Oak Planks", CFrame.new(632, 22, 60, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[218] t=1781825719.11
+  {"Oak Planks", CFrame.new(632, 22, 64, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[219] t=1781825720.51
+  {"Oak Planks", CFrame.new(632, 22, 68, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[220] t=1781825721.91
+  {"Oak Planks", CFrame.new(632, 22, 72, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[221] t=1781825723.31
+  {"Oak Planks", CFrame.new(632, 22, 76, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[222] t=1781825724.71
+  {"Oak Planks", CFrame.new(632, 22, 80, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[223] t=1781825726.11
+  {"Oak Planks", CFrame.new(632, 22, 84, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[224] t=1781825727.51
+  {"Oak Planks", CFrame.new(632, 22, 88, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[225] t=1781825728.91
+  {"Oak Planks", CFrame.new(632, 22, 92, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[226] t=1781825730.31
+  {"Oak Planks", CFrame.new(636, 22, 60, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[227] t=1781825731.71
+  {"Oak Planks", CFrame.new(636, 22, 64, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[228] t=1781825733.11
+  {"Oak Planks", CFrame.new(636, 22, 68, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[229] t=1781825734.51
+  {"Oak Planks", CFrame.new(636, 22, 72, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[230] t=1781825735.91
+  {"Oak Planks", CFrame.new(636, 22, 76, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[231] t=1781825737.31
+  {"Oak Planks", CFrame.new(636, 22, 80, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[232] t=1781825738.71
+  {"Oak Planks", CFrame.new(636, 22, 84, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[233] t=1781825740.11
+  {"Oak Planks", CFrame.new(636, 22, 88, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[234] t=1781825741.51
+  {"Oak Planks", CFrame.new(636, 22, 92, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[235] t=1781825742.91
+  {"Oak Planks", CFrame.new(640, 22, 60, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[236] t=1781825744.31
+  {"Oak Planks", CFrame.new(640, 22, 64, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[237] t=1781825745.71
+  {"Oak Planks", CFrame.new(640, 22, 68, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[238] t=1781825747.11
+  {"Oak Planks", CFrame.new(640, 22, 72, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[239] t=1781825748.51
+  {"Oak Planks", CFrame.new(640, 22, 76, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[240] t=1781825749.91
+  {"Oak Planks", CFrame.new(640, 22, 80, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[241] t=1781825751.31
+  {"Oak Planks", CFrame.new(640, 22, 84, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[242] t=1781825752.71
+  {"Oak Planks", CFrame.new(640, 22, 88, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[243] t=1781825754.11
+  {"Oak Planks", CFrame.new(640, 22, 92, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[244] t=1781825755.51
+  {"Oak Planks", CFrame.new(644, 22, 60, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[245] t=1781825756.91
+  {"Oak Planks", CFrame.new(644, 22, 64, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[246] t=1781825758.31
+  {"Oak Planks", CFrame.new(644, 22, 68, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[247] t=1781825759.71
+  {"Oak Planks", CFrame.new(644, 22, 72, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[248] t=1781825761.11
+  {"Oak Planks", CFrame.new(644, 22, 76, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[249] t=1781825762.51
+  {"Oak Planks", CFrame.new(644, 22, 80, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[250] t=1781825763.91
+  {"Oak Planks", CFrame.new(644, 22, 84, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[251] t=1781825765.31
+  {"Oak Planks", CFrame.new(644, 22, 88, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[252] t=1781825766.71
+  {"Oak Planks", CFrame.new(644, 22, 92, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[253] t=1781825768.11
+  {"Oak Planks", CFrame.new(648, 22, 60, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[254] t=1781825769.51
+  {"Oak Planks", CFrame.new(648, 22, 64, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[255] t=1781825770.91
+  {"Oak Planks", CFrame.new(648, 22, 68, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[256] t=1781825772.31
+  {"Oak Planks", CFrame.new(648, 22, 72, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[257] t=1781825773.71
+  {"Oak Planks", CFrame.new(648, 22, 76, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[258] t=1781825775.11
+  {"Oak Planks", CFrame.new(648, 22, 80, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[259] t=1781825776.51
+  {"Oak Planks", CFrame.new(648, 22, 84, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[260] t=1781825777.91
+  {"Oak Planks", CFrame.new(648, 22, 88, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[261] t=1781825779.31
+  {"Oak Planks", CFrame.new(648, 22, 92, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[262] t=1781825780.71
+  {"Oak Planks", CFrame.new(652, 22, 60, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[263] t=1781825782.11
+  {"Oak Planks", CFrame.new(652, 22, 64, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[264] t=1781825783.51
+  {"Oak Planks", CFrame.new(652, 22, 68, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[265] t=1781825784.91
+  {"Oak Planks", CFrame.new(652, 22, 72, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[266] t=1781825786.31
+  {"Oak Planks", CFrame.new(652, 22, 76, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[267] t=1781825787.71
+  {"Oak Planks", CFrame.new(652, 22, 80, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[268] t=1781825789.11
+  {"Oak Planks", CFrame.new(652, 22, 84, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[269] t=1781825790.51
+  {"Oak Planks", CFrame.new(652, 22, 88, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[270] t=1781825791.91
+  {"Oak Planks", CFrame.new(652, 22, 92, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[271] t=1781825793.31
+  {"Oak Planks", CFrame.new(656, 22, 60, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[272] t=1781825794.71
+  {"Oak Planks", CFrame.new(656, 22, 64, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[273] t=1781825796.11
+  {"Oak Planks", CFrame.new(656, 22, 68, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[274] t=1781825797.51
+  {"Oak Planks", CFrame.new(656, 22, 72, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[275] t=1781825798.91
+  {"Oak Planks", CFrame.new(656, 22, 76, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[276] t=1781825800.31
+  {"Oak Planks", CFrame.new(656, 22, 80, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[277] t=1781825801.71
+  {"Oak Planks", CFrame.new(656, 22, 84, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[278] t=1781825803.11
+  {"Oak Planks", CFrame.new(656, 22, 88, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[279] t=1781825804.51
+  {"Oak Planks", CFrame.new(656, 22, 92, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[280] t=1781825805.91
+  {"Oak Planks", CFrame.new(660, 22, 60, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[281] t=1781825807.31
+  {"Oak Planks", CFrame.new(660, 22, 64, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[282] t=1781825808.71
+  {"Oak Planks", CFrame.new(660, 22, 68, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[283] t=1781825810.11
+  {"Oak Planks", CFrame.new(660, 22, 72, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[284] t=1781825811.51
+  {"Oak Planks", CFrame.new(660, 22, 76, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[285] t=1781825812.91
+  {"Oak Planks", CFrame.new(660, 22, 80, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[286] t=1781825814.31
+  {"Oak Planks", CFrame.new(660, 22, 84, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[287] t=1781825815.71
+  {"Oak Planks", CFrame.new(660, 22, 88, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[288] t=1781825817.11
+  {"Oak Planks", CFrame.new(660, 22, 92, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[289] t=1781825818.51
+  {"Lamp", CFrame.new(640, 6, 92, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[290] t=1781825819.91
+  {"Lamp", CFrame.new(648, 6, 92, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[291] t=1781825821.31
+  {"Oak Leaves", CFrame.new(628, 2, 56, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[292] t=1781825822.71
+  {"Oak Leaves", CFrame.new(628, 2, 96, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[293] t=1781825824.11
+  {"Oak Leaves", CFrame.new(636, 2, 56, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[294] t=1781825825.51
+  {"Oak Leaves", CFrame.new(636, 2, 96, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[295] t=1781825826.91
+  {"Oak Leaves", CFrame.new(644, 2, 56, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[296] t=1781825828.31
+  {"Oak Leaves", CFrame.new(644, 2, 96, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[297] t=1781825829.71
+  {"Oak Leaves", CFrame.new(652, 2, 56, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[298] t=1781825831.11
+  {"Oak Leaves", CFrame.new(652, 2, 96, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[299] t=1781825832.51
+  {"Oak Leaves", CFrame.new(660, 2, 56, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[300] t=1781825833.91
+  {"Oak Leaves", CFrame.new(660, 2, 96, -1, 0, -4.371138828673793e-08, 0), workspace.Baseplate},
+  --[301] t=1781825835.31
+  {"Oak Leaves", CFrame.new(624, 2, 60, -4.371138828673793e-08, 0, 1, 0), workspace.Baseplate},
+  --[302] t=1781825836.71
+  {"Oak Leaves", CFrame.new(664, 2, 60, -4.371138828673793e-08, 0, 1, 0), workspace.Baseplate},
+  --[303] t=1781825838.11
+  {"Oak Leaves", CFrame.new(624, 2, 68, -4.371138828673793e-08, 0, 1, 0), workspace.Baseplate},
+  --[304] t=1781825839.51
+  {"Oak Leaves", CFrame.new(664, 2, 68, -4.371138828673793e-08, 0, 1, 0), workspace.Baseplate},
+  --[305] t=1781825840.91
+  {"Oak Leaves", CFrame.new(624, 2, 76, -4.371138828673793e-08, 0, 1, 0), workspace.Baseplate},
+  --[306] t=1781825842.31
+  {"Oak Leaves", CFrame.new(664, 2, 76, -4.371138828673793e-08, 0, 1, 0), workspace.Baseplate},
+  --[307] t=1781825843.71
+  {"Oak Leaves", CFrame.new(624, 2, 84, -4.371138828673793e-08, 0, 1, 0), workspace.Baseplate},
+  --[308] t=1781825845.11
+  {"Oak Leaves", CFrame.new(664, 2, 84, -4.371138828673793e-08, 0, 1, 0), workspace.Baseplate},
+  --[309] t=1781825846.51
+  {"Oak Leaves", CFrame.new(624, 2, 92, -4.371138828673793e-08, 0, 1, 0), workspace.Baseplate},
+  --[310] t=1781825847.91
+  {"Oak Leaves", CFrame.new(664, 2, 92, -4.371138828673793e-08, 0, 1, 0), workspace.Baseplate},
+}
+
 local Eventb = game:GetService("ReplicatedStorage").Events.Place
 local plr = game:GetService("Players").LocalPlayer
 
 Tab2:Button("Sub to Vaehz", function()
+
     for i,v in pairs(subtovaehz) do
         plr.Character:PivotTo(v[2])
         task.wait()
         Eventb:InvokeServer(table.unpack(v))
         
     end
+    plr.Character.HumanoidRootPart.Anchored = false
 end)
 
 Tab2:Button("Castle", function()
+
     for i,v in pairs(castle) do
         plr.Character:PivotTo(v[2])
         task.wait()
         Eventb:InvokeServer(table.unpack(v))
         
     end
+    plr.Character.HumanoidRootPart.Anchored = false
 end)
 
 Tab2:Button("Cool pattern", function()
+
     for i,v in pairs(coolpattern) do
         plr.Character:PivotTo(v[2])
         task.wait()
         Eventb:InvokeServer(table.unpack(v))
         
+    end
+    plr.Character.HumanoidRootPart.Anchored = false
+end)
+
+Tab2:Button("Claude's House", function()
+    plr.Character:MoveTo(Vector3.new(596, 6, 160))
+    for i,v in pairs(claudeshouse) do
+        Eventb:InvokeServer(table.unpack(v))
+    end
+end)
+
+Tab2:Button("Claude's House V2", function()
+    plr.Character:MoveTo(Vector3.new(644, 6, 76))
+    for i,v in pairs(claudehousev2) do
+        spawn(function()
+            Eventb:InvokeServer(table.unpack(v))
+        end)
     end
 end)
